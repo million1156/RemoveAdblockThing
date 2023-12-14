@@ -262,6 +262,7 @@
                 const currentVersion = parseFloat(GM_info.script.version);
 
                 if (githubVersion > currentVersion) {
+                    console.log(`Remove Adblock thing: currentVersion: ${currentVersion} | GitHub's version: ${githubVersion}`);
                     console.log('Remove Adblock Thing: A new version is available. Please update your script.');
 
                     var result = window.confirm("Remove Adblock Thing: A new version is available. Please update your script.");
