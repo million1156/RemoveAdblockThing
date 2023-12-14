@@ -6,8 +6,8 @@
 // @author       JoelMatic
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
-// @updateURL    https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
-// @downloadURL  https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
+// @updateURL    https://github.com/million1156/RemoveAdblockThing/raw/patch-1/Youtube-Ad-blocker-Reminder-Remover.user.js
+// @downloadURL  https://github.com/million1156/RemoveAdblockThing/raw/patch-1/Youtube-Ad-blocker-Reminder-Remover.user.js
 // @grant        none
 // ==/UserScript==
 
@@ -250,7 +250,7 @@
             return;
         }
 
-        const scriptUrl = 'https://raw.githubusercontent.com/TheRealJoelmatic/RemoveAdblockThing/main/Youtube-Ad-blocker-Reminder-Remover.user.js';
+        const scriptUrl = 'https://raw.githubusercontent.com/million1156/RemoveAdblockThing/patch-1/Youtube-Ad-blocker-Reminder-Remover.user.js';
 
         fetch(scriptUrl)
         .then(response => response.text())
